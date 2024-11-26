@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import mongoose from "mongoose"
 
 mongoose.connect(process.env.DB_CONNECTION_STRING);

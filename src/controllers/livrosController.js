@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import livros from "../models/Livro.js";
 
 class LivroController {
