@@ -1,6 +1,6 @@
  
 import NaoEncontrado from "../erros/NaoEncontrado.js";
-import livros from "../models/Livro.js";
+import {livros} from "../models/index.js";
 
 class LivroController {
 
@@ -78,7 +78,7 @@ class LivroController {
     }
   }
 
-  static listarLivroPorEditora = async (req, res, next) => {
+  static listarLivroPorFiltro = async (req, res, next) => {
     try {
       const editora = req.query.editora;
 
